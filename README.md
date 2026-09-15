@@ -100,6 +100,6 @@ O usuário informa seu **nome** e **ano de nascimento**, e o sistema calcula sua
 
 **PHP • HTML • Lógica de Programação • Validação de Dados**
 
-⭐ Feito para fins educacionais no SENAI Jacob Lafer.
+⭐ SENAI A. Jacob Lafer.
 
 </div>
