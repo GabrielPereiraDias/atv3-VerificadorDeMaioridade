@@ -1,68 +1,105 @@
-# 🔐 Verificador de Maioridade — PHP
-
 <div align="center">
 
-### 💻 Atividade 3 • Desenvolvimento de Sistemas
-**SENAI JACOB LAFER**
+# 🔐 VERIFICADOR DE MAIORIDADE
+
+### 💻 Atividade 3 — Desenvolvimento de Sistemas
+
+**SENAI JACOB LAFER** · **1ID-DS**
 
 ![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Concluído-2ea44f?style=for-the-badge)
 
 </div>
 
 ---
 
-## 👨‍💻 Sobre a atividade
+## 🧩 Sobre o projeto
 
-Este projeto é uma atividade prática desenvolvida em **PHP**, com o objetivo de criar um pequeno sistema de cadastro capaz de **verificar a maioridade do usuário** a partir do nome e do ano de nascimento.
+Um sistema simples de **cadastro e verificação de maioridade**, desenvolvido em PHP como atividade prática do curso de Desenvolvimento de Sistemas.
 
-A aplicação também realiza validações dos dados informados e registra os cadastros considerados válidos em um arquivo de texto.
+O usuário informa seu **nome** e **ano de nascimento**, e o sistema calcula sua idade, valida os dados e informa se o acesso está **liberado ou negado**.
 
----
-
-## ⚙️ O que o sistema faz?
-
-- 📝 Recebe o **nome** do usuário;
-- 📅 Recebe o **ano de nascimento**;
-- 🧮 Calcula a idade com base no ano de **2026**;
-- ✅ Libera o acesso para pessoas com **18 anos ou mais**;
-- ❌ Nega o acesso para menores de 18 anos;
-- 🛡️ Valida anos de nascimento inválidos, futuros ou com idade igual/superior a 120 anos;
-- 💾 Salva os dados válidos no arquivo `usuarios.txt`.
+> 🎯 **Objetivo:** praticar entrada de dados, condicionais, validações, cálculos e gravação de informações em PHP.
 
 ---
 
-## 🧠 Tecnologias utilizadas
-
-| Tecnologia | Utilização |
-|---|---|
-| 🐘 **PHP** | Processamento, validações e lógica do sistema |
-| 🌐 **HTML** | Estrutura do formulário |
-| 📄 **TXT** | Armazenamento dos cadastros |
-
----
-
-## 📂 Estrutura
+## ⚡ Funcionamento
 
 ```text
-📦 atv3-VerificadorDeMaioridade
- ├── 🐘 5a_desafio1.php
- ├── 📄 usuarios.txt
- └── 📘 README.md
+👤 Nome + 📅 Ano de nascimento
+              │
+              ▼
+        🧮 Cálculo da idade
+              │
+              ▼
+       🛡️ Validação dos dados
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+   🔓 18+          🔒 < 18
+   LIBERADO         NEGADO
+              │
+              ▼
+        💾 Registro em TXT
 ```
 
 ---
 
-## 👤 Aluno
+## 🛠️ O que foi utilizado?
 
-**Gabriel Pereira Dias**  
+| 💻 Tecnologia | 📌 Função |
+|:---:|---|
+| 🐘 **PHP** | Lógica, cálculos, condições e validações |
+| 🌐 **HTML5** | Estrutura do formulário |
+| 📄 **TXT** | Registro dos usuários válidos |
+
+---
+
+## ✅ Principais recursos
+
+- 📝 Cadastro de nome e ano de nascimento
+- 🧮 Cálculo automático da idade
+- 🔓 Verificação de maioridade
+- 🛡️ Validação de anos inválidos ou futuros
+- ⏳ Limite de idade para validação
+- 💾 Salvamento dos dados em `usuarios.txt`
+- 📢 Exibição de mensagens de acesso e cadastro
+
+---
+
+## 📂 Estrutura do projeto
+
+```text
+📦 atv3-VerificadorDeMaioridade
+│
+├── 🐘 5a_desafio1.php   → Sistema principal
+├── 📄 usuarios.txt      → Registro dos cadastros
+└── 📘 README.md         → Documentação
+```
+
+---
+
+## 👨‍💻 Desenvolvedor
+
+<div align="center">
+
+### Gabriel Pereira Dias
+
 🎓 **Turma:** 1ID-DS  
-🏫 **SENAI Jacob Lafer**
+🏫 **SENAI Jacob Lafer**  
+📚 **Curso:** Desenvolvimento de Sistemas
+
+</div>
 
 ---
 
 <div align="center">
 
-✨ Projeto desenvolvido para fins acadêmicos. ✨
+### 🚀 Atividade acadêmica
+
+**PHP • HTML • Lógica de Programação • Validação de Dados**
+
+⭐ Feito para fins educacionais no SENAI Jacob Lafer.
 
 </div>
